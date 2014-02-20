@@ -9,10 +9,14 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize initalStoryboard;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.initalStoryboard = self.window.rootViewController.storyboard;
+    
     return YES;
 }
 							
@@ -41,6 +45,14 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)reloadApp {
+    for (UIView* view in self.window.subviews)
+        [view removeFromSuperview];
+    
+    UIViewController *initialScene = [self.initalStoryboard instantiateInitialViewController];
+    self.window.rootViewController = initialScene;
 }
 
 @end

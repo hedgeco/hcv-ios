@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2C819E187CA9EF00AD69C5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C819D187CA9EF00AD69C5 /* SettingsViewController.m */; };
+		9E554626187F06B800E9B3A5 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E554625187F06B800E9B3A5 /* ModelViewController.m */; };
+		9E592C0A187DAC7400DB92F7 /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E592C09187DAC7400DB92F7 /* InitViewController.m */; };
+		9E592C0D187DAED900DB92F7 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E592C0C187DAED900DB92F7 /* LoginViewController.m */; };
 		9EB2DCFE187707A40023662D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DCFD187707A40023662D /* Foundation.framework */; };
 		9EB2DD00187707A40023662D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DCFF187707A40023662D /* CoreGraphics.framework */; };
 		9EB2DD02187707A40023662D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DD01187707A40023662D /* UIKit.framework */; };
@@ -14,14 +18,15 @@
 		9EB2DD0A187707A40023662D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD09187707A40023662D /* main.m */; };
 		9EB2DD0E187707A40023662D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD0D187707A40023662D /* AppDelegate.m */; };
 		9EB2DD11187707A40023662D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2DD0F187707A40023662D /* Main.storyboard */; };
-		9EB2DD14187707A40023662D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD13187707A40023662D /* FirstViewController.m */; };
-		9EB2DD17187707A40023662D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD16187707A40023662D /* SecondViewController.m */; };
+		9EB2DD14187707A40023662D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD13187707A40023662D /* HomeViewController.m */; };
+		9EB2DD17187707A40023662D /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD16187707A40023662D /* ExploreViewController.m */; };
 		9EB2DD19187707A40023662D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2DD18187707A40023662D /* Images.xcassets */; };
 		9EB2DD20187707A40023662D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DD1F187707A40023662D /* XCTest.framework */; };
 		9EB2DD21187707A40023662D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DCFD187707A40023662D /* Foundation.framework */; };
 		9EB2DD22187707A40023662D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2DD01187707A40023662D /* UIKit.framework */; };
 		9EB2DD2A187707A40023662D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2DD28187707A40023662D /* InfoPlist.strings */; };
 		9EB2DD2C187707A40023662D /* VestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2DD2B187707A40023662D /* VestTests.m */; };
+		D377EB2C54434FBEB615E7A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7E7B0826384326A8600530 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F7E7B0826384326A8600530 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2C819C187CA9EF00AD69C5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9E2C819D187CA9EF00AD69C5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9E554624187F06B800E9B3A5 /* ModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		9E554625187F06B800E9B3A5 /* ModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+		9E592C06187D208100DB92F7 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		9E592C08187DAC7400DB92F7 /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
+		9E592C09187DAC7400DB92F7 /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		9E592C0B187DAED900DB92F7 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9E592C0C187DAED900DB92F7 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9EB2DCFA187707A40023662D /* Vest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB2DCFD187707A40023662D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EB2DCFF187707A40023662D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +61,17 @@
 		9EB2DD0C187707A40023662D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EB2DD0D187707A40023662D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9EB2DD10187707A40023662D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EB2DD12187707A40023662D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9EB2DD13187707A40023662D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9EB2DD15187707A40023662D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9EB2DD16187707A40023662D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9EB2DD12187707A40023662D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9EB2DD13187707A40023662D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9EB2DD15187707A40023662D /* ExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		9EB2DD16187707A40023662D /* ExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
 		9EB2DD18187707A40023662D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EB2DD1E187707A40023662D /* VestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB2DD1F187707A40023662D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9EB2DD27187707A40023662D /* VestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VestTests-Info.plist"; sourceTree = "<group>"; };
 		9EB2DD29187707A40023662D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EB2DD2B187707A40023662D /* VestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VestTests.m; sourceTree = "<group>"; };
+		C0CAE2C7B9FE461AA5F1FCBD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +82,7 @@
 				9EB2DD00187707A40023662D /* CoreGraphics.framework in Frameworks */,
 				9EB2DD02187707A40023662D /* UIKit.framework in Frameworks */,
 				9EB2DCFE187707A40023662D /* Foundation.framework in Frameworks */,
+				D377EB2C54434FBEB615E7A6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,7 @@
 				9EB2DD25187707A40023662D /* VestTests */,
 				9EB2DCFC187707A40023662D /* Frameworks */,
 				9EB2DCFB187707A40023662D /* Products */,
+				C0CAE2C7B9FE461AA5F1FCBD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +122,12 @@
 		9EB2DCFC187707A40023662D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E592C06187D208100DB92F7 /* libPods-AFNetworking.a */,
 				9EB2DCFD187707A40023662D /* Foundation.framework */,
 				9EB2DCFF187707A40023662D /* CoreGraphics.framework */,
 				9EB2DD01187707A40023662D /* UIKit.framework */,
 				9EB2DD1F187707A40023662D /* XCTest.framework */,
+				1F7E7B0826384326A8600530 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +138,18 @@
 				9EB2DD0C187707A40023662D /* AppDelegate.h */,
 				9EB2DD0D187707A40023662D /* AppDelegate.m */,
 				9EB2DD0F187707A40023662D /* Main.storyboard */,
-				9EB2DD12187707A40023662D /* FirstViewController.h */,
-				9EB2DD13187707A40023662D /* FirstViewController.m */,
-				9EB2DD15187707A40023662D /* SecondViewController.h */,
-				9EB2DD16187707A40023662D /* SecondViewController.m */,
+				9E592C08187DAC7400DB92F7 /* InitViewController.h */,
+				9E592C09187DAC7400DB92F7 /* InitViewController.m */,
+				9E592C0B187DAED900DB92F7 /* LoginViewController.h */,
+				9E592C0C187DAED900DB92F7 /* LoginViewController.m */,
+				9EB2DD12187707A40023662D /* HomeViewController.h */,
+				9EB2DD13187707A40023662D /* HomeViewController.m */,
+				9EB2DD15187707A40023662D /* ExploreViewController.h */,
+				9EB2DD16187707A40023662D /* ExploreViewController.m */,
+				9E554624187F06B800E9B3A5 /* ModelViewController.h */,
+				9E554625187F06B800E9B3A5 /* ModelViewController.m */,
+				9E2C819C187CA9EF00AD69C5 /* SettingsViewController.h */,
+				9E2C819D187CA9EF00AD69C5 /* SettingsViewController.m */,
 				9EB2DD18187707A40023662D /* Images.xcassets */,
 				9EB2DD04187707A40023662D /* Supporting Files */,
 			);
@@ -164,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EB2DD2F187707A40023662D /* Build configuration list for PBXNativeTarget "Vest" */;
 			buildPhases = (
+				B132E98500DC4DABA3E136EA /* Check Pods Manifest.lock */,
 				9EB2DCF6187707A40023662D /* Sources */,
 				9EB2DCF7187707A40023662D /* Frameworks */,
 				9EB2DCF8187707A40023662D /* Resources */,
+				EFB97C1F5368494990CA80F2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,14 +279,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B132E98500DC4DABA3E136EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB97C1F5368494990CA80F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EB2DCF6187707A40023662D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EB2DD17187707A40023662D /* SecondViewController.m in Sources */,
+				9E554626187F06B800E9B3A5 /* ModelViewController.m in Sources */,
+				9EB2DD17187707A40023662D /* ExploreViewController.m in Sources */,
 				9EB2DD0E187707A40023662D /* AppDelegate.m in Sources */,
-				9EB2DD14187707A40023662D /* FirstViewController.m in Sources */,
+				9E592C0A187DAC7400DB92F7 /* InitViewController.m in Sources */,
+				9E2C819E187CA9EF00AD69C5 /* SettingsViewController.m in Sources */,
+				9E592C0D187DAED900DB92F7 /* LoginViewController.m in Sources */,
+				9EB2DD14187707A40023662D /* HomeViewController.m in Sources */,
 				9EB2DD0A187707A40023662D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +448,7 @@
 		};
 		9EB2DD30187707A40023662D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CAE2C7B9FE461AA5F1FCBD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,6 +462,7 @@
 		};
 		9EB2DD31187707A40023662D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CAE2C7B9FE461AA5F1FCBD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,6 +535,7 @@
 				9EB2DD31187707A40023662D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EB2DD32187707A40023662D /* Build configuration list for PBXNativeTarget "VestTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +544,7 @@
 				9EB2DD34187707A40023662D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
